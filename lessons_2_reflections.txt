@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git file is created but your files remain untracked.  To ready the repo to accept commits.
