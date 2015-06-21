@@ -1,2 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 A .git file is created but your files remain untracked.  To ready the repo to accept commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area differs in that it is only a temporay holder where as both the 
+working directory and the repository are permanent storage.
