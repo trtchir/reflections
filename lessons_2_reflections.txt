@@ -21,3 +21,6 @@ use git status to show staged files and git diff to show changes between
   What is the result of merging two branches together?
    Why do we represent it in the diagram the way we do?
    Their commit history is merged and ordered by date.
+
+   What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+   Automatic will work barring a conflict.  Resolving conflict then commit - easy.
