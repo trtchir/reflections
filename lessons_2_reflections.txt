@@ -4,3 +4,16 @@ A .git file is created but your files remain untracked.  To ready the repo to ac
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area differs in that it is only a temporay holder where as both the 
 working directory and the repository are permanent storage.
+
+How can you use the staging area to make sure you have one commit per logical change?
+use git status to show staged files and git diff to show changes between
+ working dir and staging area, and git diff --stage to show changes
+ between staging area and the repo.
+
+ What are some situations when branches would be helpful in keeping your history organized?
+  How would branches help?
+  A major change in design like mobile first.  Branches would allow for significant changes 
+  to be tried out, without affecting the current working model.
+
+  How do the diagrams help you visualize the branch structure?
+  They show the linear nature of the branches.
